@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>MyPage</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<link rel="stylesheet" href="css/myPage.css">
+		<link rel="stylesheet" href="css/ilearn_style.css">
+		<script>
+			function toggleProfile() {
+				var x = document.getElementById("profileWidgetTD");
+				if (x.style.display === "none") {
+					x.style.display = "block";
+				} else {
+					x.style.display = "none";
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<!--<div class="row">
+				<div class="buttonBar">
+					<button class="btn btn-primary" id="profileWidgetButton" onclick="toggleProfile()">Profile</button>
+				</div>
+			</div>
+			--><div class="row">
+				<div class="widgetTable">
+					<table class="grid-table">
+						<tr>
+							<td id="profileWidgetTD">
+								<div class="widget panelbox">
+									<div class="profile">
+										<span class="glyphicon glyphicon-pencil glyphicon-icon" style="margin-top: 10px; color: #3f85b9;"></span>
+										<p class="profile-image" style="text-align:center;">
+											<img src="images/icons/personicon.png" align="middle" style="border-radius: 50%">
+											
+										</p>
+										<h3 align="center" style="color: black;" class="name">Allen Albrook</h3>
+										<p style="text-align:center; font-size: 12px;" class="des">
+											Engineer
+											<br>
+											Gurgoan, IN
+										</p>
+										<p class="profile-details" style="text-align:center; font-size: 11px;">
+											<b>Email: </b> allen.albrook@calbro.com
+											<br>
+											<b>Phone: </b> 9865785432
+										</p>
+									</div>
+								</div>
+							</td>
+							<td>
+								<div id="ER1" class="panelbox ER"> 
+									<!--ER HTML-->
+									<div class="ER-main">
+										<img alt="suggestion_icon" class="img-responsive icons custom-widet" src="images/png/016-web-management.png" width="40px"> 
+										<p class="request-title">VmWare
+											<span class="glyphicon glyphicon-pencil glyphicon-icon"></span>
+											<a id="erhelp" href="#" >
+												<i class="fa fa-question-circle ERhelp" title="Ask for Help" aria-hidden="true"></i>
+											</a>
+										 <a id="ERReport" href="#" >
+											 <i class="fa fa-file-excel-o ERadmin" title="ER Reports" aria-hidden="true"></i>
+											</a>
+										 <a id="ERadminconsole" href="#" >
+											 <i class="fa fa fa-user-o ERadminconsole" title="Admin Console" aria-hidden="true"></i>
+											</a>
+										</p>
+										<hr style="height:2px; color:grey">
+										<div id="ER"> 
+											<div class="ERhexbox">
+												<div class="requestDetails">
+													<b class="b">Details:</b>
+													
+													<div class="description">
+														
+														<table class="table table-striped table-hover custom-table">
+															<thead>
+																<th>ID</th>
+																<th>Name</th>
+																<th>Description</th>
+															</thead>
+															<tbody>
+																<tr>
+																	<td>11</td>
+																	<td><a href="">Windows</a></td>
+																	<td>Server 2016</td>
+																</tr>
+																<tr>
+																	<td>12</td>
+																	<td><a href="">Linux</a></td>
+																	<td>CentOS 7</td>
+																</tr>
+																<tr>
+																	<td>13</td>
+																	<td><a href="">Linux</a></td>
+																	<td>Redhat 7</td>
+																</tr>
+																<tr>
+																	<td>14</td>
+																	<td><a href="">Windows</a></td>
+																	<td>Windows 2010</td>
+																</tr>
+																<tr>
+																	<td>15</td>
+																	<td><a href="">Linux</a></td>
+																	<td>Ubuntu 12</td>
+																</tr>
+															</tbody>
+														</table>
+
+
+													</div>
+<!--
+													<p class="description">
+														
+														
+														<a href="#">
+															<input type="radio" name="1" value="Windows" checked> Windows - Windows Server 2016
+														</a>
+														<br>
+														<a href="#">
+															<input type="radio" name="1" value="Linux"> Linux - CentOS 7
+														</a>
+														<br>
+														<a href="#">	
+															<input type="radio" name="1" value="Windows"> Linux - Redhat 7 
+														</a>
+														<br>
+														<a href="#">	
+															<input type="radio" name="1" value="Windows"> Windows - Windows 2010 
+														</a>
+														<br>
+														<a href="#">	
+															<input type="radio" name="1" value="Windows"> Linux - Ubuntu 12
+														</a>
+													</p>
+
+
+-->
+													
+<!--
+													<p>
+														<b class="b" style="margin: 0px;">Status:</b>
+														Scheduled for Approval
+													</p>
+													<div class="count">
+														<div class="col-sm-5 active">
+															<b>03</b><br>Active
+														</div>
+														<div class="col-sm-5 disabled">
+															<b>12</b><br>Disabled
+														</div>
+													</div>
+-->
+													
+												</div>
+											</div>
+											
+											<div class="RequestButtons">
+												<div class="large-image">
+													<img src="images/png/016-web-management.png">
+												</div>
+												<div class="buttons">
+													<div class="count">
+														<div class="active">
+															<b>03</b><br>Active
+														</div>
+														<br>
+														<div class="disabled">
+															<b>12</b><br>Disabled
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="request-button-bottom">
+												<button class="btn btn-primary" style="margin-left: 10px;margin-right: 5px;">Request</button>
+												<button class="btn btn-warning" style="margin-left: 5px;margin-right: 5px;">Refresh</button>
+												<button class="btn btn-success" style="margin-left: 5px;margin-right: 5px;">Launch</button>
+												<button class="btn btn-danger" style="margin-left: 5px;margin-right: 5px;">Release</button>
+
+											</div>
+									  </div>
+								</div>
+								<!--ER HTML-->
+								</div>
+							
+							</td>
+							<td>
+								<div id="ER1" class="panelbox ER"> 
+									<!--ER HTML-->
+									<div class="ER-main">
+										<img alt="suggestion_icon" class="img-responsive icons custom-widet" src="images/png/024-ads.png" width="40px"> 
+										<p class="request-title">Shared Folder Access
+											<button class="btn btn-primary create-folder" data-toggle="modal" data-target="#createFolder">Create Folder</button>
+											<a id="erhelp" href="#" >
+												<i class="fa fa-question-circle ERhelp" title="Ask for Help" aria-hidden="true"></i>
+											</a>
+										 <a id="ERReport" href="#" >
+											 <i class="fa fa-file-excel-o ERadmin" title="ER Reports" aria-hidden="true"></i>
+											</a>
+										 <a id="ERadminconsole" href="#" >
+											 <i class="fa fa fa-user-o ERadminconsole" title="Admin Console" aria-hidden="true"></i>
+											</a>
+										</p>
+										<hr style="height:2px; color:grey">
+										<div id="ER"> 
+											<div class="ERhexbox">
+												<div class="requestDetails">
+													<b class="b">Folder Name:</b>
+													<a href="#">
+														<p class="description1">
+															FTP/Linux Drivers
+														</p>
+													</a>
+													<b class="b">Type:</b>
+													<p>
+														Dropbox
+													</p>
+													<div class="request-keywords">
+														<b class="b">Description:</b>
+														<br>
+														<p>
+															Description and Details of the Service will appear in this section of the widget.
+														</p>
+														
+													</div>
+													<div class="request-keywords">
+														
+														<b class="b">Access Type:</b>
+														<p>
+															ReadWrite
+														</p>
+														
+													</div>
+												</div>
+											</div>
+											
+											<div class="RequestButtons">
+												<div class="large-image">
+													<img src="images/png/024-ads.png">
+												</div>
+												<div class="buttons">
+													<button class="btn btn-success">Release</button>
+													<br>
+													<button class="btn btn-success">Backup</button>
+													<br>
+													<button class="btn btn-success">Share</button>
+												</div>
+											</div>
+									  </div>
+								</div>
+								<!--ER HTML-->
+								</div>
+							
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div id="ER1" class="panelbox ER"> 
+									<!--ER HTML-->
+									<div class="ER-main">
+										<img alt="suggestion_icon" class="img-responsive icons custom-widet" src="images/png/jira.png" width="40px"> 
+										<p class="request-title">Jira
+											<button class="btn btn-primary create" data-toggle="modal" data-target="#createIssue">Create Issue</button>
+											<a id="erhelp" href="#" >
+												<i class="fa fa-question-circle ERhelp" title="Ask for Help" aria-hidden="true"></i>
+											</a>
+										 <a id="ERReport" href="#" >
+											 <i class="fa fa-file-excel-o ERadmin" title="ER Reports" aria-hidden="true"></i>
+											</a>
+										 <a id="ERadminconsole" href="#" >
+											 <i class="fa fa fa-user-o ERadminconsole" title="Admin Console" aria-hidden="true"></i>
+											</a>
+										</p>
+										<hr style="height:2px; color:grey">
+										<div id="ER"> 
+											<div class="ERhexbox">
+												<div class="requestDetails">
+													<b class="b">Projects assigned:</b>
+													<div class="description1 project-assigned">
+														<ul class="poject-assigned">
+															<a href="#"><li>Windows Phone App</li></a>
+															<a href="#"><li>New Web Applicaion</li></a>
+															<a href="#"><li>Android Resrvation</li></a>
+															<a href="#"><li>Project 4</li></a>
+														</ul>
+													</div>
+													<b class="b">Issues assigned:</b>
+													<div class="description1 project-assigned">
+														<ul class="poject-assigned">
+															<a href="#"><li>Email Exchange Server</li></a>
+															<a href="#"><li>Database Down</li></a>
+															<a href="#"><li>Unable to access folder</li></a>
+															<a href="#"><li>Issue 4</li></a>
+														</ul>
+													</div>
+													
+													
+												</div>
+											</div>
+											
+											<div class="RequestButtons">
+												<div class="large-image">
+													<img src="images/png/jira.png">
+												</div>
+												<div class="buttons">
+													<button class="btn btn-success">Request</button>
+													<br>
+													<button class="btn btn-success">Assign</button>
+													<br>
+													<button class="btn btn-success">Launch</button>
+												</div>
+											</div>
+									  </div>
+								</div>
+								<!--ER HTML-->
+								</div>
+								
+							</td>
+							<td>
+								<div id="ER1" class="panelbox ER"> 
+									<!--ER HTML-->
+									<div class="ER-main">
+										<img alt="suggestion_icon" class="img-responsive icons custom-widet" src="images/png/008-marketing-strategy.png" width="40px"> 
+										<p class="request-title">Box Enterprise
+											<span class="glyphicon glyphicon-pencil glyphicon-icon"></span>
+											<a id="erhelp" href="#" >
+												<i class="fa fa-question-circle ERhelp" title="Ask for Help" aria-hidden="true"></i>
+											</a>
+										 <a id="ERReport" href="#" >
+											 <i class="fa fa-file-excel-o ERadmin" title="ER Reports" aria-hidden="true"></i>
+											</a>
+										 <a id="ERadminconsole" href="#" >
+											 <i class="fa fa fa-user-o ERadminconsole" title="Admin Console" aria-hidden="true"></i>
+											</a>
+										</p>
+										<hr style="height:2px; color:grey">
+										<div id="ER"> 
+											<div class="ERhexbox">
+												<div class="requestDetails">
+													<b class="b">Details:</b>
+													<p class="description1">
+														Description and Details of the Service will appear in this section of the widget. 	 	 
+													</p>
+													<b class="b">Status:</b>
+													<p>
+														Scheduled for Approval
+													</p>
+													<div class="request-keywords">
+														<b class="b">Keywords:</b>
+														<br>
+														<button class="btn btn-primary" style="margin-left: 10px;">VmWare</button>
+														<button class="btn btn-success">VirtualBox</button>
+														<button class="btn btn-warning">Virtual</button>
+														<button class="btn btn-danger">VM</button>
+													</div>
+												</div>
+											</div>
+											
+											<div class="RequestButtons">
+												<div class="large-image">
+													<img src="images/png/008-marketing-strategy.png">
+												</div>
+												<div class="buttons">
+													<button class="btn btn-success">Request</button>
+													<br>
+													<button class="btn btn-success">Release</button>
+													<br>
+													<button class="btn btn-success">Launch</button>
+												</div>
+											</div>
+									  </div>
+								</div>
+								<!--ER HTML-->
+								</div>
+								
+							</td>
+							<td>
+								<div id="ER1" class="panelbox ER"> 
+									<!--ER HTML-->
+									<div class="ER-main">
+										<img alt="suggestion_icon" class="img-responsive icons custom-widet" src="images/png/023-target-1.png" width="40px"> 
+										<p class="request-title">Widget 1
+											<span class="glyphicon glyphicon-pencil glyphicon-icon"></span>
+											<a id="erhelp" href="#" >
+												<i class="fa fa-question-circle ERhelp" title="Ask for Help" aria-hidden="true"></i>
+											</a>
+										 <a id="ERReport" href="#" >
+											 <i class="fa fa-file-excel-o ERadmin" title="ER Reports" aria-hidden="true"></i>
+											</a>
+										 <a id="ERadminconsole" href="#" >
+											 <i class="fa fa fa-user-o ERadminconsole" title="Admin Console" aria-hidden="true"></i>
+											</a>
+										</p>
+										<hr style="height:2px; color:grey">
+										<div id="ER"> 
+											<div class="ERhexbox">
+												<div class="requestDetails">
+													<b class="b">Details:</b>
+													<p class="description1">
+														Description and Details of the Service will appear in this section of the widget. 
+														 
+													</p>
+													<b class="b">Status:</b>
+													<p>
+														Scheduled for Approval
+													</p>
+													<div class="request-keywords">
+														<b class="b">Keywords:</b>
+														<br>
+														<button class="btn btn-primary" style="margin-left: 10px;">VmWare</button>
+														<button class="btn btn-success">VirtualBox</button>
+														<button class="btn btn-warning">Virtual</button>
+														<button class="btn btn-danger">VM</button>
+													</div>
+												</div>
+											</div>
+											
+											<div class="RequestButtons">
+												<div class="large-image">
+													<img src="images/png/023-target-1.png">
+												</div>
+												<div class="buttons">
+													<button class="btn btn-success">Request</button>
+													<br>
+													<button class="btn btn-success">Release</button>
+													<br>
+													<button class="btn btn-success">Launch</button>
+												</div>
+											</div>
+									  </div>
+								</div>
+								<!--ER HTML-->
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="createFolder" role="dialog">
+			<div class="modal-dialog">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="close" style="color: white" data-dismiss="modal">&times;</button>
+				  <h4 class="modal-title">Create Folder</h4>
+				</div>
+				<div class="modal-body">
+					<div class="form create-folder">
+
+
+						<div class="form-group">
+							<label for="foldername">Folder Name:</label>
+							<input type="text" class="form-control" id="foldername">
+						  </div>
+						  <div class="form-group">
+							<label for="fodler-description">Folder Description:</label>
+							<input type="text" class="form-control" id="fodler-description">
+						  </div>
+
+						<div class="form-group">
+							<label for="folder-type">Folder Type:</label>
+							<select id="folder-type">
+								<option>--Select--</option>
+								<option>Box</option>
+								<option>Dropbox</option>
+								<option>Network Folder</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="access-type">Access Type:</label>
+							<select id="access-type">
+								<option>--Select--</option>
+								<option>Read</option>
+								<option>Read/Write</option>
+
+							</select>
+						</div>
+
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default submit-button" data-dismiss="modal">Submit</button>
+				  	<button type="button" class="btn btn-default close-button" data-dismiss="modal">Close</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+			<div class="modal fade" id="createIssue" role="dialog">
+				<div class="modal-dialog ">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal" style="color: white">&times;</button>
+					  <h4 class="modal-title">Create Issue</h4>
+					</div>
+					<div class="modal-body">
+						<div class="form create-folder">
+
+
+							<div class="form-group">
+								<label for="foldername">Project:</label>
+								<input type="text" class="form-control" id="foldername">
+							  </div>
+							  <div class="form-group">
+								<label for="fodler-description">Issue Summary:</label>
+								<input type="text" class="form-control" id="fodler-description">
+							  </div>
+
+							<div class="form-group">
+								<label for="folder-type">Issue Type:</label>
+								<select id="folder-type">
+									<option>--Select--</option>
+									<option>Low</option>
+									<option>Medium</option>
+									<option>Widespread</option>
+								</select>
+							</div>
+							
+
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default submit-button" data-dismiss="modal">Submit</button>
+					  	<button type="button" class="btn btn-default close-button" data-dismiss="modal">Close</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+	</body>
+</html>

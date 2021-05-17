@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>MyPage</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/myPage.css">
+		
+		<script>
+			function toggleProfile() {
+				var x = document.getElementById("profileWidgetTD");
+				if (x.style.display === "none") {
+					x.style.display = "block";
+				} else {
+					x.style.display = "none";
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="buttonBar">
+					<button class="btn btn-primary" id="profileWidgetButton" onclick="toggleProfile()">Profile</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="widgetTable">
+					<table>
+						<tr>
+							<td id="profileWidgetTD">
+								<div class="widget panelbox">
+									<div class="profile">
+										<p class="profile-image" style="text-align:center;">
+											<img src="images/icons/personicon.png" align="middle" style="border-radius: 50%">
+										</p>
+										<h3 align="center" style="color: black;" class="name">Mohit Sharma</h3>
+										<p style="text-align:center; font-size: 12px;" class="des">
+											Engineer
+											<br>
+											Gurgoan, IN
+										</p>
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="widget panelbox">
+									<div class="financial">
+										<img class="img-responsive icons" src="images/icons/financial.png" alt="" title="Finance">
+										<p class="title">
+											My Financials
+										</p>
+										<div id="myfinancials">
+											<!--Payslip HTML-->
+											<div id="quicklink">
+												<div id="Payslip_widget" class="quicklink">
+													<a data-fancybox="" data-type="iframe" id="ohrcustom" href="https://soagnpc.intranet.genpact.com/widget/oraclepayroll/resources/pages/oraclePayroll.jsp?id=ND1WH%2BkWowmB7HdPPgJTow%3D%3D">
+														<img class="img-responsive" src="images/quicklinks/payslip.png" alt="payslip">
+													</a>
+												</div>
+											</div>
+											<!--Payslip HTML-->
+											<!--Payslip HTML-->
+											<div id="quicklink">
+												<div id="Payslip_widget" class="quicklink">
+													<a data-fancybox="" data-type="iframe" id="ohrcustom" href="https://soagnpc.intranet.genpact.com/widget/oraclepayroll/resources/pages/oraclePayroll.jsp?id=ND1WH%2BkWowmB7HdPPgJTow%3D%3D">
+														<img class="img-responsive" src="images/quicklinks/address.png" alt="payslip">
+													</a>
+												</div>
+											</div>
+											<!--Payslip HTML--><!--Payslip HTML-->
+											<div id="quicklink">
+												<div id="Payslip_widget" class="quicklink">
+													<a data-fancybox="" data-type="iframe" id="ohrcustom" href="https://soagnpc.intranet.genpact.com/widget/oraclepayroll/resources/pages/oraclePayroll.jsp?id=ND1WH%2BkWowmB7HdPPgJTow%3D%3D">
+														<img class="img-responsive" src="images/quicklinks/PF.png" alt="payslip">
+													</a>
+												</div>
+											</div>
+											<!--Payslip HTML--><!--Payslip HTML-->
+											<div id="quicklink">
+												<div id="Payslip_widget" class="quicklink">
+													<a data-fancybox="" data-type="iframe" id="ohrcustom" href="https://soagnpc.intranet.genpact.com/widget/oraclepayroll/resources/pages/oraclePayroll.jsp?id=ND1WH%2BkWowmB7HdPPgJTow%3D%3D">
+														<img class="img-responsive" src="images/quicklinks/employeement.png" alt="payslip">
+													</a>
+												</div>
+											</div>
+											<!--Payslip HTML--><!--Payslip HTML-->
+											<div id="quicklink">
+												<div id="Payslip_widget" class="quicklink">
+													<a data-fancybox="" data-type="iframe" id="ohrcustom" href="https://soagnpc.intranet.genpact.com/widget/oraclepayroll/resources/pages/oraclePayroll.jsp?id=ND1WH%2BkWowmB7HdPPgJTow%3D%3D">
+														<img class="img-responsive" src="images/quicklinks/bonus1.png" alt="payslip">
+													</a>
+												</div>
+											</div>
+											<!--Payslip HTML--><!--Payslip HTML-->
+											<div id="quicklink">
+												<div id="Payslip_widget" class="quicklink">
+													<a data-fancybox="" data-type="iframe" id="ohrcustom" href="https://soagnpc.intranet.genpact.com/widget/oraclepayroll/resources/pages/oraclePayroll.jsp?id=ND1WH%2BkWowmB7HdPPgJTow%3D%3D">
+														<img class="img-responsive" src="images/quicklinks/softloan.png" alt="payslip">
+													</a>
+												</div>
+											</div>
+											<!--Payslip HTML-->
+				<!--							<p style="visibility: hidden; font-size: 8px;">abc</p>-->
+										</div>
+									</div>
+								</div>
+				
+							</td>
+							<td>
+								<div id="ER1" class="panelbox ER"> 
+									<!--ER HTML-->
+									<div class="ER-main">
+										<img alt="suggestion_icon" class="img-responsive icons" src="images/icons/ERicon.png"> 
+										<p class="title">Employee Reimbursement
+											<a id="erhelp" href="#" >
+												<i class="fa fa-question-circle ERhelp" title="Ask for Help" aria-hidden="true"></i>
+											</a>
+										 <a id="ERReport" href="#" >
+											 <i class="fa fa-file-excel-o ERadmin" title="ER Reports" aria-hidden="true"></i>
+											</a>
+										 <a id="ERadminconsole" href="#" >
+											 <i class="fa fa fa-user-o ERadminconsole" title="Admin Console" aria-hidden="true"></i>
+											</a>
+										</p>
+										<div id="ER"> 
+											<div class="ERhexbox">
+												<a href="#" >
+													<div id="pendingapproval" class="pendingapproval">
+														<br>
+														<b >12</b>
+														<p>Pending for Approval</p>
+													</div>
+												</a>
+												<a href="#" >
+													<div id="pendingclarification" class="pendingclarification">
+														<br>
+														<b >03</b>
+														<p>Pending Clarification</p>
+													</div>
+												</a>
+											</div>
+											<div class="ERname">
+												<div class="list-type3">
+													<ol>
+														<li id="ERapproval" class="ERli">
+															<a href="#" >
+																ER Approval Form
+															</a>
+														</li>
+														<li id="myapproval" class="ERli">
+															<a href="#" >
+																My Approval Requests
+															</a>
+														</li>
+
+
+														 <li id="claimsubmission" class="ERli">
+															<a href="#">
+																Claim Submission
+															 </a>
+														</li>
+														<li id="claimrequest" class="ERli">
+															<a href="#" >
+																My Claim Requests 
+															</a>
+														</li>
+														<li id="approvaldelegation" class="ERli">
+															<a href="#" >
+																Delegation
+															</a>
+														</li>
+													</ol>
+												</div>
+											</div>
+									  </div>
+								</div>
+								<!--ER HTML-->
+							</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="panelbox">
+									<img alt="suggestion_icon" class="img-responsive icons" src="images/icons/faq.png"/>
+										<p class="title" style="margin-bottom: 0px">Ask for Help</p>	         
+									<!--Help HTML-->
+										<div id="FAQ">
+											<a href="https://hr.genpact.com/hr/peopleFirst/?env=cpub" >	<img src="images/chatbot.jpg" class="chatbotimg">
+											</a>
+
+											<br>
+											<a href="https://genpact-myit.onbmc.com/ux/" >	<img src="images/helpmate.png" class="helpmateimg">
+											</a>
+											<br>
+											<a href="https://genpactonline.sharepoint.com/sites/Ess-Beta/FAQDocuments/" >	<p class="policieshelp">Genpact Policies</p></a>
+											<a href="https://genpactonline.sharepoint.com/sites/ESS_QA/SitePages/Newsfeed.aspx" >	<p class="suggestionbox">Suggestion Box</p></a>
+
+										</div>
+								</div>
+							</td>
+							<td>
+								<div class="widget panelbox">
+									<div class="financial">
+										<img class="img-responsive icons" src="images/icons/financial.png" alt="" title="Finance">
+										<p class="title">
+											My Financials
+										</p>
+										<div id="myfinancials">
+											<!--Payslip HTML-->
+											<div id="quicklink">
+												<div id="Payslip_widget" class="quicklink">
+													<a data-fancybox="" data-type="iframe" id="ohrcustom" href="https://soagnpc.intranet.genpact.com/widget/oraclepayroll/resources/pages/oraclePayroll.jsp?id=ND1WH%2BkWowmB7HdPPgJTow%3D%3D">
+														<img class="img-responsive" src="images/quicklinks/payslip.png" alt="payslip">
+													</a>
+												</div>
+											</div>
+											<!--Payslip HTML-->
+											<!--Payslip HTML-->
+											<div id="quicklink">
+												<div id="Payslip_widget" class="quicklink">
+													<a data-fancybox="" data-type="iframe" id="ohrcustom" href="https://soagnpc.intranet.genpact.com/widget/oraclepayroll/resources/pages/oraclePayroll.jsp?id=ND1WH%2BkWowmB7HdPPgJTow%3D%3D">
+														<img class="img-responsive" src="images/quicklinks/address.png" alt="payslip">
+													</a>
+												</div>
+											</div>
+											<!--Payslip HTML--><!--Payslip HTML-->
+											<div id="quicklink">
+												<div id="Payslip_widget" class="quicklink">
+													<a data-fancybox="" data-type="iframe" id="ohrcustom" href="https://soagnpc.intranet.genpact.com/widget/oraclepayroll/resources/pages/oraclePayroll.jsp?id=ND1WH%2BkWowmB7HdPPgJTow%3D%3D">
+														<img class="img-responsive" src="images/quicklinks/PF.png" alt="payslip">
+													</a>
+												</div>
+											</div>
+											<!--Payslip HTML--><!--Payslip HTML-->
+											<div id="quicklink">
+												<div id="Payslip_widget" class="quicklink">
+													<a data-fancybox="" data-type="iframe" id="ohrcustom" href="https://soagnpc.intranet.genpact.com/widget/oraclepayroll/resources/pages/oraclePayroll.jsp?id=ND1WH%2BkWowmB7HdPPgJTow%3D%3D">
+														<img class="img-responsive" src="images/quicklinks/employeement.png" alt="payslip">
+													</a>
+												</div>
+											</div>
+											<!--Payslip HTML--><!--Payslip HTML-->
+											<div id="quicklink">
+												<div id="Payslip_widget" class="quicklink">
+													<a data-fancybox="" data-type="iframe" id="ohrcustom" href="https://soagnpc.intranet.genpact.com/widget/oraclepayroll/resources/pages/oraclePayroll.jsp?id=ND1WH%2BkWowmB7HdPPgJTow%3D%3D">
+														<img class="img-responsive" src="images/quicklinks/bonus1.png" alt="payslip">
+													</a>
+												</div>
+											</div>
+											<!--Payslip HTML--><!--Payslip HTML-->
+											<div id="quicklink">
+												<div id="Payslip_widget" class="quicklink">
+													<a data-fancybox="" data-type="iframe" id="ohrcustom" href="https://soagnpc.intranet.genpact.com/widget/oraclepayroll/resources/pages/oraclePayroll.jsp?id=ND1WH%2BkWowmB7HdPPgJTow%3D%3D">
+														<img class="img-responsive" src="images/quicklinks/softloan.png" alt="payslip">
+													</a>
+												</div>
+											</div>
+											<!--Payslip HTML-->
+				<!--							<p style="visibility: hidden; font-size: 8px;">abc</p>-->
+										</div>
+									</div>
+								</div>
+				
+							</td>
+							<td>
+								<div id="ER1" class="panelbox ER"> 
+									<!--ER HTML-->
+									<div class="ER-main">
+										<img alt="suggestion_icon" class="img-responsive icons" src="images/icons/ERicon.png"> 
+										<p class="title">Employee Reimbursement
+											<a id="erhelp" href="#" >
+												<i class="fa fa-question-circle ERhelp" title="Ask for Help" aria-hidden="true"></i>
+											</a>
+										 <a id="ERReport" href="#" >
+											 <i class="fa fa-file-excel-o ERadmin" title="ER Reports" aria-hidden="true"></i>
+											</a>
+										 <a id="ERadminconsole" href="#" >
+											 <i class="fa fa fa-user-o ERadminconsole" title="Admin Console" aria-hidden="true"></i>
+											</a>
+										</p>
+										<div id="ER"> 
+											<div class="ERhexbox">
+												<a href="#" >
+													<div id="pendingapproval" class="pendingapproval">
+														<br>
+														<b >12</b>
+														<p>Pending for Approval</p>
+													</div>
+												</a>
+												<a href="#" >
+													<div id="pendingclarification" class="pendingclarification">
+														<br>
+														<b >03</b>
+														<p>Pending Clarification</p>
+													</div>
+												</a>
+											</div>
+											<div class="ERname">
+												<div class="list-type3">
+													<ol>
+														<li id="ERapproval" class="ERli">
+															<a href="#" >
+																ER Approval Form
+															</a>
+														</li>
+														<li id="myapproval" class="ERli">
+															<a href="#" >
+																My Approval Requests
+															</a>
+														</li>
+
+
+														 <li id="claimsubmission" class="ERli">
+															<a href="#">
+																Claim Submission
+															 </a>
+														</li>
+														<li id="claimrequest" class="ERli">
+															<a href="#" >
+																My Claim Requests 
+															</a>
+														</li>
+														<li id="approvaldelegation" class="ERli">
+															<a href="#" >
+																Delegation
+															</a>
+														</li>
+													</ol>
+												</div>
+											</div>
+									  </div>
+								</div>
+								<!--ER HTML-->
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

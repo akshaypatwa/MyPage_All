@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>MyPage</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/myPage.css">
+		<link rel="stylesheet" href="css/ilearn_style.css">
+		<script>
+			function toggleProfile() {
+				var x = document.getElementById("profileWidgetTD");
+				if (x.style.display === "none") {
+					x.style.display = "block";
+				} else {
+					x.style.display = "none";
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<!--<div class="row">
+				<div class="buttonBar">
+					<button class="btn btn-primary" id="profileWidgetButton" onclick="toggleProfile()">Profile</button>
+				</div>
+			</div>
+			--><div class="row">
+				<div class="widgetTable">
+					<table>
+						<tr>
+							<td id="profileWidgetTD">
+								<div class="widget panelbox">
+									<div class="profile">
+										<p class="profile-image" style="text-align:center;">
+											<img src="images/icons/personicon.png" align="middle" style="border-radius: 50%">
+										</p>
+										<h3 align="center" style="color: black;" class="name">Mohit Sharma</h3>
+										<p style="text-align:center; font-size: 12px;" class="des">
+											Engineer
+											<br>
+											Gurgoan, IN
+										</p>
+									</div>
+								</div>
+							</td>
+							 <td>
+								<div id="ER1" class="panelbox ER"> 
+									<!--ER HTML-->
+									<div class="ER-main">
+										<img alt="suggestion_icon" class="img-responsive icons custom-widet" src="images/png/016-web-management.png" width="40px"> 
+										<p class="request-title">VmWare
+											<a id="erhelp" href="#" >
+												<i class="fa fa-question-circle ERhelp" title="Ask for Help" aria-hidden="true"></i>
+											</a>
+										 <a id="ERReport" href="#" >
+											 <i class="fa fa-file-excel-o ERadmin" title="ER Reports" aria-hidden="true"></i>
+											</a>
+										 <a id="ERadminconsole" href="#" >
+											 <i class="fa fa fa-user-o ERadminconsole" title="Admin Console" aria-hidden="true"></i>
+											</a>
+										</p>
+										<hr style="height:2px; color:grey">
+										<div id="ER"> 
+											<div class="ERhexbox">
+												<div class="requestDetails">
+                                                    <div class="kryesore">
+													<b>Description:</b>
+													<p class="description">
+	 	                                             <input type="radio" name="windows" value="Windows"> Windows<br>
+                                                     <input type="radio" name="windows" value="Windows"> Windows<br>
+                                                     <input type="radio" name="windows" value="Windows"> Windows<br>
+													</p>
+                                                    </div>
+													<b>Status:</b>
+													<p>
+														Scheduled for Approval
+													</p><br>
+													<div class="request-keywords">
+														<b>Keywords:</b>
+														<br>
+														<button class="btn btn-primary" style="margin-left: 10px;">VmWare</button>
+														<button class="btn btn-success">VirtualBox</button>
+														<button class="btn btn-warning">Virtual</button>
+														<button class="btn btn-danger">VM</button>
+													</div>
+												</div>
+											</div>
+											
+											<div class="RequestButtons">
+												<div class="large-image">
+													<img src="images/png/016-web-management.png">
+												</div>
+												<div class="buttons">
+													<button class="btn btn-success">Request</button>
+													<br>
+													<button class="btn btn-success">Release</button>
+													<br>
+													<button class="btn btn-success">Launch</button>
+												</div>
+											</div>
+									  </div>
+								</div>
+								<!--ER HTML-->
+								</div>
+							
+							</td>
+							<td>
+								<div id="ER1" class="panelbox ER"> 
+									<!--ER HTML-->
+									<div class="ER-main">
+										<img alt="suggestion_icon" class="img-responsive icons custom-widet" src="images/png/024-ads.png" width="40px"> 
+										<p class="request-title">AWS
+											<a id="erhelp" href="#" >
+												<i class="fa fa-question-circle ERhelp" title="Ask for Help" aria-hidden="true"></i>
+											</a>
+										 <a id="ERReport" href="#" >
+											 <i class="fa fa-file-excel-o ERadmin" title="ER Reports" aria-hidden="true"></i>
+											</a>
+										 <a id="ERadminconsole" href="#" >
+											 <i class="fa fa fa-user-o ERadminconsole" title="Admin Console" aria-hidden="true"></i>
+											</a>
+										</p>
+										<hr style="height:2px; color:grey">
+										<div id="ER"> 
+											<div class="ERhexbox">
+												<div class="requestDetails">
+													<b>Description:</b>
+													<p class="description">
+														Description and Details of the Service will appear in this section of the widget. 	 	
+													</p>
+													<b>Status:</b>
+													<p>
+														Scheduled for Approval
+													</p><br>
+													<div class="request-keywords">
+														<b>Keywords:</b>
+														<br>
+														<button class="btn btn-primary" style="margin-left: 10px;">VmWare</button>
+														<button class="btn btn-success">VirtualBox</button>
+														<button class="btn btn-warning">Virtual</button>
+														<button class="btn btn-danger">VM</button>
+													</div>
+												</div>
+											</div>
+											
+											<div class="RequestButtons">
+												<div class="large-image">
+													<img src="images/png/024-ads.png">
+												</div>
+												<div class="buttons">
+													<button class="btn btn-success">Request</button>
+													<br>
+													<button class="btn btn-success">Release</button>
+													<br>
+													<button class="btn btn-success">Launch</button>
+												</div>
+											</div>
+									  </div>
+								</div>
+								<!--ER HTML-->
+								</div>
+							
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div id="ER1" class="panelbox ER"> 
+									<!--ER HTML-->
+									<div class="ER-main">
+										<img alt="suggestion_icon" class="img-responsive icons custom-widet" src="images/png/008-marketing-strategy.png" width="40px"> 
+										<p class="request-title">Box Enterprise
+											<a id="erhelp" href="#" >
+												<i class="fa fa-question-circle ERhelp" title="Ask for Help" aria-hidden="true"></i>
+											</a>
+										 <a id="ERReport" href="#" >
+											 <i class="fa fa-file-excel-o ERadmin" title="ER Reports" aria-hidden="true"></i>
+											</a>
+										 <a id="ERadminconsole" href="#" >
+											 <i class="fa fa fa-user-o ERadminconsole" title="Admin Console" aria-hidden="true"></i>
+											</a>
+										</p>
+										<hr style="height:2px; color:grey">
+										<div id="ER"> 
+											<div class="ERhexbox">
+												<div class="requestDetails">
+													<b>Description:</b>
+													<p class="description">
+														Description and Details of the Service will appear in this section of the widget. 	 	 
+													</p>
+													<b>Status:</b>
+													<p>
+														Scheduled for Approval
+													</p>
+													<div class="request-keywords">
+														<b>Keywords:</b>
+														<br>
+														<button class="btn btn-primary" style="margin-left: 10px;">VmWare</button>
+														<button class="btn btn-success">VirtualBox</button>
+														<button class="btn btn-warning">Virtual</button>
+														<button class="btn btn-danger">VM</button>
+													</div>
+												</div>
+											</div>
+											
+											<div class="RequestButtons">
+												<div class="large-image">
+													<img src="images/png/008-marketing-strategy.png">
+												</div>
+												<div class="buttons">
+													<button class="btn btn-success">Request</button>
+													<br>
+													<button class="btn btn-success">Release</button>
+													<br>
+													<button class="btn btn-success">Launch</button>
+												</div>
+											</div>
+									  </div>
+								</div>
+								<!--ER HTML-->
+								</div>
+								
+							</td>
+							<td>
+								<div id="ER1" class="panelbox ER"> 
+									<!--ER HTML-->
+									<div class="ER-main">
+										<img alt="suggestion_icon" class="img-responsive icons custom-widet" src="images/png/031-sharing-content.png" width="40px"> 
+										<p class="request-title">FTP
+											<a id="erhelp" href="#" >
+												<i class="fa fa-question-circle ERhelp" title="Ask for Help" aria-hidden="true"></i>
+											</a>
+										 <a id="ERReport" href="#" >
+											 <i class="fa fa-file-excel-o ERadmin" title="ER Reports" aria-hidden="true"></i>
+											</a>
+										 <a id="ERadminconsole" href="#" >
+											 <i class="fa fa fa-user-o ERadminconsole" title="Admin Console" aria-hidden="true"></i>
+											</a>
+										</p>
+										<hr style="height:2px; color:grey">
+										<div id="ER"> 
+											<div class="ERhexbox">
+												<div class="requestDetails">
+													<b>Description:</b>
+													<p class="description">
+														Description and Details of the Service will appear in this section of the widget. 	 	
+													</p>
+													<b>Status:</b>
+													<p>
+														Scheduled for Approval
+													</p>
+													<div class="request-keywords">
+														<b>Keywords:</b>
+														<br>
+														<button class="btn btn-primary" style="margin-left: 10px;">VmWare</button>
+														<button class="btn btn-success">VirtualBox</button>
+														<button class="btn btn-warning">Virtual</button>
+														<button class="btn btn-danger">VM</button>
+													</div>
+												</div>
+											</div>
+											
+											<div class="RequestButtons">
+												<div class="large-image">
+													<img src="images/png/031-sharing-content.png">
+												</div>
+												<div class="buttons">
+													<button class="btn btn-success">Request</button>
+													<br>
+													<button class="btn btn-success">Release</button>
+													<br>
+													<button class="btn btn-success">Launch</button>
+												</div>
+											</div>
+									  </div>
+								</div>
+								<!--ER HTML-->
+								</div>
+							
+							</td>
+							<td>
+								<div id="ER1" class="panelbox ER"> 
+									<!--ER HTML-->
+									<div class="ER-main">
+										<img alt="suggestion_icon" class="img-responsive icons custom-widet" src="images/png/023-target-1.png" width="40px"> 
+										<p class="request-title">Widget 1
+											<a id="erhelp" href="#" >
+												<i class="fa fa-question-circle ERhelp" title="Ask for Help" aria-hidden="true"></i>
+											</a>
+										 <a id="ERReport" href="#" >
+											 <i class="fa fa-file-excel-o ERadmin" title="ER Reports" aria-hidden="true"></i>
+											</a>
+										 <a id="ERadminconsole" href="#" >
+											 <i class="fa fa fa-user-o ERadminconsole" title="Admin Console" aria-hidden="true"></i>
+											</a>
+										</p>
+										<hr style="height:2px; color:grey">
+										<div id="ER"> 
+											<div class="ERhexbox">
+												<div class="requestDetails">
+													<b>Description:</b>
+													<p class="description">
+														Description and Details of the Service will appear in this section of the widget. 	 	
+													</p>
+													<b>Status:</b>
+													<p>
+														Scheduled for Approval
+													</p>
+													<div class="request-keywords">
+														<b>Keywords:</b>
+														<br>
+														<button class="btn btn-primary" style="margin-left: 10px;">VmWare</button>
+														<button class="btn btn-success">VirtualBox</button>
+														<button class="btn btn-warning">Virtual</button>
+														<button class="btn btn-danger">VM</button>
+													</div>
+												</div>
+											</div>
+											
+											<div class="RequestButtons">
+												<div class="large-image">
+													<img src="images/png/023-target-1.png">
+												</div>
+												<div class="buttons">
+													<button class="btn btn-success">Request</button>
+													<br>
+													<button class="btn btn-success">Release</button>
+													<br>
+													<button class="btn btn-success">Launch</button>
+												</div>
+											</div>
+									  </div>
+								</div>
+								<!--ER HTML-->
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
